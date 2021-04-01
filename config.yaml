@@ -1,32 +1,16 @@
-zone: "JonBedroom"
-sonosGateway: "http://localhost:5005/"
-deviceName: "Satechi Media Button Consumer Control"
+zone: ""
+sonosGateway: "http://localhost:5005"
+deviceName: "Logitech USB Receiver"
 
 debug: true
 refreshConfig: 30
 
-connected:
-  - "pause"
-  - "play"
-
 bindings:
-  115: 
+  106:
     - path: 
-      - "volume/+2"
+      - "volume/+5"
 
-  114: 
-    - path: 
-      - "volume/-2"
-
-  163: 
-    - path: 
-      - "next"
-
-  165: 
-    - path: 
-      - "previous"
-
-  164: 
-    - path: 
-      - "playpause"
+  105: 
+    - path:
+        - "volume/-7"
 
